@@ -1,0 +1,46 @@
+<!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+	<struts>
+
+            
+<package name="simple"  >
+  <result-types>
+   <result-type name="dispatcher" 
+   class="org.apache.struts2.dispatcher.ServletDispatcherResult" default="true"/>
+</result-types> 
+     
+ <interceptors>
+        <interceptor name="params" class="com.opensymphony.xwork2.interceptor.ParametersInterceptor"/>  
+ </interceptors>
+
+
+      
+        <action name="hello" class="mypack.HelloAction">
+             <interceptor-ref name="params"/> 
+        <result name="success" >/result.jsp</result>
+        </action>
+</package>
+</struts>
+
+<!--
+<result-types>
+             <result-type name="myResult" class="mypack.MyResult" default="true"/>
+     </result-types>     
+ 
+<result-types>
+   <result-type name="dispatcher" 
+   class="org.apache.struts2.dispatcher.ServletDispatcherResult" default="true"/>
+</result-types>
+
+-->
+
+
+
+
+
+
+
+
+
+

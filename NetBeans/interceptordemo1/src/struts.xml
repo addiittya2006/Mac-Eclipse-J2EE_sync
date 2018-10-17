@@ -1,0 +1,23 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<package name="demoo">
+<result-types>
+   <result-type name="dispatcher" 
+   class="org.apache.struts2.dispatcher.ServletDispatcherResult" default="true"/>
+</result-types>
+
+ <interceptors>
+  <interceptor name="paramSetter" class="mypack.MyInterceptor"/> 
+  <interceptor name="toUpper" class="mypack.CaseChanger"/> 
+ </interceptors>
+ 
+  
+  <action name="hello" class="mypack.HelloAction">
+   <interceptor-ref name="paramSetter"/>   
+   <interceptor-ref name="toUpper"/>  
+  <result name="success" >/result.jsp</result>
+</action>
+</package>
+</struts>

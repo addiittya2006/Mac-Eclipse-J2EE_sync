@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="valdemo"
+  id="myeclipse.1230961760609"
+  context-root="/valdemo"
+  j2ee-spec="1.4"
+  archive="valdemo.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

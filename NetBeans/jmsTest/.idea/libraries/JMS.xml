@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="JMS" type="JMS">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/antlr-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/cglib-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/commons-collections-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/ejb3-persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/hibernate-annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/hibernate-commons-annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/hibernate2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/hibernate3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/jdbc2_0-stdext.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/jta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Hibernate/JarsForHibernate/slf4j-api-1.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../glassfish4/glassfish/modules/javax.jms-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

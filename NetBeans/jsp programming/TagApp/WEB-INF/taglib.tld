@@ -1,0 +1,7 @@
+<taglib>
+     <tag>
+          <name>simple</name>
+          <tag-class>mypack.SimpleHandler</tag-class>
+     </tag>
+</taglib>
+

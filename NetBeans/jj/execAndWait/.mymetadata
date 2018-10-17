@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="execAndWait"
+  id="myeclipse.1236235344140"
+  context-root="/execAndWait"
+  j2ee-spec="5.0"
+  archive="execAndWait.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

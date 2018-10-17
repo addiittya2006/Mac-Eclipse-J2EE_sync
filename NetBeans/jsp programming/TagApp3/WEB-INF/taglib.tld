@@ -1,0 +1,11 @@
+<taglib>
+   <tag>
+        <name>hello</name>
+        <tag-class>mypack.HelloHandler</tag-class>
+                 <attribute>
+                         <name>name</name>
+                         <required>true</required>
+                          <rtexprvalue>true</rtexprvalue>
+                    </attribute>
+      </tag>
+</taglib>

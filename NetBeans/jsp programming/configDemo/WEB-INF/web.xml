@@ -1,0 +1,18 @@
+<web-app>
+<servlet>
+<servlet-name>s1</servlet-name>
+<jsp-file>test.jsp</jsp-file>
+<init-param>
+<param-name>App</param-name>
+<param-value>Config Demo</param-value>
+</init-param>
+<init-param>
+<param-name>DevelopedBy</param-name>
+<param-value>GyanHouse</param-value>
+</init-param>
+</servlet>
+<servlet-mapping>
+<servlet-name>s1</servlet-name>
+<url-pattern>demo</url-pattern>
+</servlet-mapping>
+</web-app>

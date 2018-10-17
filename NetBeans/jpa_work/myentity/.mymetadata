@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="EJB"
+  name="myentity"
+  id="myeclipse.1208084192906"
+  j2ee-spec="5.0"
+  archive="myentity.jar" />
+

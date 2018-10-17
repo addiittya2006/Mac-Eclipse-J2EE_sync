@@ -1,0 +1,15 @@
+<!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<package name="demo" extends="struts-default">
+<action name="feedback" class="mypack.MyAction" >
+<interceptor-ref name="defaultStack"/>
+<interceptor-ref name="execAndWait">
+<param name="excludeMethods">input,back,cancel</param>
+</interceptor-ref>
+<result name="success">/welcome.jsp</result>
+<result name="wait">/feedback.jsp</result>
+</action>
+</package>
+</struts>

@@ -1,0 +1,43 @@
+<!DOCTYPE validators PUBLIC 
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+<field name="name">
+<field-validator type="requiredstring">
+<message>Name can't be empty.</message>
+</field-validator>
+<field-validator type="stringlength">
+<param name="minLength">3</param>
+<param name="maxLength">15</param>
+<message>Name can only be ${minLength} to ${maxLength} characters long.</message>
+</field-validator>
+</field>
+<field name="password">
+<field-validator type="regex">
+<param name="expression">[A-Z,a-z,0-9]{5}</param>
+<message>password must be at least 5 characters long and should contain alphabets and digits.</message>
+</field-validator>
+</field>
+<field name="mailId">
+<field-validator type="requiredstring" short-circuit="true">
+<message>Email is required.</message>
+</field-validator>
+<field-validator type="email">
+<message>Mail Id isn't in proper format.</message>
+</field-validator>
+</field>
+<field name="dob">
+<field-validator type="regex">
+<param name="expression">[0-1][0-9]/[0-3][0-9]/[0-9][0-9][0-9][0-9]</param>
+<message>date should be in mm/dd/yyyy format.</message>
+</field-validator>
+</field>
+<field name="exp">
+<field-validator type="int">
+<param name="min">2</param>
+<param name="max">5</param>
+<message>Experience must be between ${min} to ${max} years. </message>
+</field-validator>
+</field>
+</validators>

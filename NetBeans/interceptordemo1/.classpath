@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="E:/struts2/s2jars/commons-logging-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/struts2/s2jars/freemarker-2.3.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/struts2/s2jars/ognl-2.6.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/struts2/s2jars/struts2-core-2.0.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/struts2/s2jars/xwork-2.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/books/stucts_app/my_new_one/s2jars/commons-logging-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/books/stucts_app/my_new_one/s2jars/freemarker-2.3.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/books/stucts_app/my_new_one/s2jars/ognl-2.6.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/books/stucts_app/my_new_one/s2jars/struts2-core-2.0.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/books/stucts_app/my_new_one/s2jars/xwork-2.0.4.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,1 @@
+set classpath=C:/Program Files/glassfish-v2ur2/lib/appserv-rt.jar;C:/Program Files/glassfish-v2ur2/lib/javaee.jar;C:/Program Files/glassfish-v2ur2/lib/j2ee.jar;C:/Program Files/glassfish-v2ur2/lib/appserv-admin.jar;C:/Program Files/glassfish-v2ur2/lib/install/applications/jmsra/imqjmsra.jar;.

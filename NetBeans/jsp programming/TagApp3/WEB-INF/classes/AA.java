@@ -1,0 +1,6 @@
+
+  interface   AA
+     {
+           class  A
+            {}
+     }

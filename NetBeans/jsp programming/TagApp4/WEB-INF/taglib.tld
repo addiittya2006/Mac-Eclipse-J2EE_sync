@@ -1,0 +1,7 @@
+<taglib>
+        <uri>mylibrary</uri>
+          <tag>
+                    <name>upperCase</name>
+                    <tag-class>mypack.BodyHandler</tag-class>
+        </tag>
+</taglib>

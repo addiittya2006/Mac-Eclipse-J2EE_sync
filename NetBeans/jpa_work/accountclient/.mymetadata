@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="accountclient"
+  id="myeclipse.1207887080640"
+  context-root="/accountclient"
+  j2ee-spec="5.0"
+  archive="accountclient.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
